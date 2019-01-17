@@ -39,6 +39,10 @@
       // $('#myInput').trigger('focus')
     });
 
+    $('#smsModal').on('shown.bs.modal', function () {
+      // $('#myInput').trigger('focus')
+    });
+
     //Change sidebar and content-wrapper height
     applyStyles();
 

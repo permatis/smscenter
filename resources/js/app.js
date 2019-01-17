@@ -9,6 +9,18 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import moment from 'moment'
+import 'moment-timezone'
+
+Vue.filter('formatDate', function(value) {
+  if (value) {
+    return moment(String(value)).format('DD MMMM YYYY, hh:mm')
+  }
+});
+
+import VueSweetalert2 from 'vue-sweetalert2';
+ Vue.use(VueSweetalert2);
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

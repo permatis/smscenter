@@ -1,4 +1,6 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods:  GET, POST, OPTIONS, PUT, DELETE');
 
 Route::get('/', function () {
     return view('welcome');
@@ -10,6 +12,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::middleware('cors')->get('/skin', function () {
+Route::get('/skin', function () {
     return view('skin');
-});
+})->middleware('cors');
