@@ -100,7 +100,7 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-default" data-dismiss="modal"> Keluar</button>
-                <button class="btn btn-info" @click="kirimPesan()"> Balas Pesan </button>
+                <button class="btn btn-info" @click="kirimPesan()"> Kirim Pesan </button>
             </div>
         </div>
     </div>

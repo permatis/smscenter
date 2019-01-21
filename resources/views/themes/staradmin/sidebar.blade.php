@@ -20,7 +20,7 @@
             </div>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="../../index.html">
+            <a class="nav-link" href="{{ url('dashboard') }}">
                 <i class="menu-icon mdi mdi-television"></i>
                 <span class="menu-title">Dashboard</span>
             </a>

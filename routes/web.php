@@ -12,6 +12,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/skin', function () {
+Route::get('/dashboard', function () {
     return view('skin');
 })->middleware('cors');

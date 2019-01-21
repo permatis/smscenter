@@ -5,11 +5,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Star Admin Free Bootstrap Admin Dashboard Template</title>
+    <title>Halo Sadeng</title>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Halo Sadeng') }}</title>
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
@@ -34,7 +34,7 @@
             <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
                 <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
                     <a class="navbar-brand brand-logo" href="../../index.html">
-                        Hello Sadeng
+                        Halo Sadeng
                     </a>
                     <a class="navbar-brand brand-logo-mini" href="../../index.html">
                         <img src="../../images/logo-mini.svg" alt="logo" />
@@ -45,7 +45,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
                                 <i class="mdi mdi-bell"></i>
-                                <span class="count">7</span>
+                                <!-- <span class="count">7</span> -->
                             </a>
                             <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
                                 <div class="dropdown-item">

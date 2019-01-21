@@ -5,7 +5,7 @@
             <div class="fluid-container" v-for="out in outbox">
                 <div class="row ticket-card mt-3 pb-2 border-bottom pb-3 mb-3">
                     <div class="col-md-1 text-center">
-                        <img class="img-sm rounded-circle mb-4 mb-md-0" src="images/faces/face1.jpg" alt="profile image">
+                        <img class="img-sm rounded-circle mb-4 mb-md-0" src="images/faces-clipart/pic-1.png" alt="profile image">
                     </div>
                     <div class="ticket-details col-md-8">
                         <div class="d-flex">
